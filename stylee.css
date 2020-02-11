@@ -1,0 +1,79 @@
+.container-fluid{
+	background-image: url(images/bal.png);
+	height: 316px;
+}
+
+.btn-sm{
+	font-weight: bold;	
+}
+
+.btn {
+	font-weight: bold;	
+}
+
+.mg{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pgadd{
+	padding-top: 25px;
+	padding-bottom: 43px;
+	
+}
+.fullwidth-block {
+  padding: 70px 0; 
+}
+
+.hours{
+  color:black;
+  font-weight: bold;  
+}
+
+/* Ogloszenie */
+.fullwidth-block .section-title {
+    font-size: 36px;
+    font-size: 2.5714285714em;
+    font-weight: 300;
+    color: black; 
+}
+
+.contact-form {
+  padding: 0 5px; }
+.contact-form .row {
+  margin: 0 -5px; }
+.contact-form input:not([type="submit"]), .contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: black;
+  border: 3px solid #607D8B;
+  background: transparent;
+   }
+
+.contact-form input:not([type="submit"]):hover, .contact-form input:not([type="submit"]):focus, .contact-form textarea:hover, .contact-form textarea:focus {
+    border-color: #009ad8; }
+.contact-form textarea {
+  min-height: 150px; }
+.contact-form .text-right {
+  text-align: right; } 
+
+  .addfirma{
+    color: white;
+    background-color: #0099FF;
+  }
+  .add{
+    color: white;
+    background-color: #00CC66;
+  }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
